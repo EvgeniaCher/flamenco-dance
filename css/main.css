@@ -1,0 +1,348 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #1F2626;
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: hidden;
+}
+
+/*Главная*/
+/*Первый контейнер*/
+
+header {
+	position: relative;
+	background: url(../img/background1.jpg) no-repeat center top / cover;
+	overflow: hidden;
+}
+
+.header:before {
+	content: '';
+	position: absolute;
+	width: 160px;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.3;
+	filter: blur(70px);
+	transform: skewX(30deg);
+	animation: move-light 5s infinite;
+}
+
+@keyframes move-light {
+	from {
+		transform: translateX(-100px) skewX(30deg);
+	}
+	to {
+		transform: translateX(1400px) skewX(30deg);
+	}
+}
+
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.menu {
+	margin-top: 20px;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.menu__item {
+	margin: 0 27px;
+}
+
+.menu__item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #d8d8d8;
+}
+
+.menu__item a:hover {
+	color: #ffff99;
+	text-decoration: underline;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+	margin-top: 112px;
+}
+
+.title__main {
+	font-family: 'Vidaloka', serif;
+	font-size: 60px;
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+
+/*Второй контейнер*/
+
+.container2 {
+	background-color: #191C1C;
+	padding: 20px;
+	border-top: 7px solid #d8d8d8;
+}
+
+.advantages {
+	border: 2px solid #303a3a;
+	padding: 30px;
+}
+
+.icon {
+	margin: 20px;
+}
+
+.photos {
+	text-align: center;
+	margin: 10px;
+}
+
+.photo {
+	transition: .3s all;
+	border-radius: 3%;
+}
+
+.photo:hover {
+	box-shadow: 0 10px 30px #000;
+	border: 2px solid #7E9E99;
+}
+
+
+/*Третий контейнер*/
+.container3, .container4, .container8, .container10 {
+	padding: 60px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+h3  {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 40px;
+	color: #ffff99;
+	text-align: center;
+}
+
+h4 {
+	font-size: 30px;
+	color: #ffff99;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+	font-size: 17px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+
+/*Пятый контейнер*/
+.container5 {
+	padding: 60px;
+	text-align: center;
+	background: #191C1C;
+	border-bottom: 7px solid #d8d8d8;
+}
+
+/*Наши цены и расписание*/
+/*Шестой и седьмой контейнер*/
+
+.container6 {
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 60px;
+	padding-bottom: 180px;
+	text-align: center;
+	background: url(../img/back.jpg) fixed no-repeat center top / cover;
+}
+
+table {
+	width: 100%;
+	
+}
+
+table, th, td {
+	border: 2px solid #cecece;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+}
+.selected {
+	background-color: #4A4E4F;
+}
+
+.selected1 {
+	background-color: #383B3B;
+	background: rgba(120, 120, 130, 0.2);
+	
+}
+
+
+h5 {
+	font-size: 23px;
+	color: #ffff99;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container7 {
+	background-color: #191C1C;
+	padding: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+/*Соревнования*/
+
+.container9 {
+	background-color: #191C1C;
+	padding: 30px;
+	text-align: center;
+	padding: 60px;
+}
+
+.container9 p {
+	color: #efefef;
+}
+
+
+
+/*Контакты*/
+
+.container11 {
+	background: url(../img/back2.jpg) no-repeat fixed center top / cover;
+	border-top: 7px solid #d8d8d8;
+}
+
+form {
+	text-align: center;
+	margin-top: 0;
+}
+.submit {
+	background-color: #3fb6b2;
+	padding: 12px 45px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin-bottom: 80px;
+	font-weight: bold;
+}
+.submit:hover {
+	background-color: #ffff99;
+	color: #383B3B;
+}
+textarea {
+	height: 100px;
+}
+input, textarea {
+	margin-bottom: 20px;
+	font-size: 11pt;
+	padding: 20px 15px 15px;
+	border: 1px solid #cecece;
+	background-color: #383B3B;
+	background: rgba(120, 120, 130, 0.2);
+	color: #fff;
+	border-radius: 5px;
+	width: 50%;
+	outline: none;
+}
+
+/*Подвал*/
+.container12 {
+	padding:30px;
+	padding-top: 50px;
+	background: #050606;
+}
+
+.adress p {
+	margin: 0px;
+	color: #efefef;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.rights p {
+	margin-top: 40px;
+	text-align: right;
+	color: #d8d8d8;
+	font-size: 12px;
+}
+
+/*Медиа-запросы*/
+
+@media screen and (max-width: 900px) {
+	.container6 {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+	.container12 {
+	padding: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.menu {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 525px) {
+	.photo {
+		height:200px;
+	}
+	
+	h3 {
+		font-size: 30px;
+	}
+	h5 {
+		font-size: 12px;
+		font-family: Arial, sans-serif;
+	}
+	p {
+		font-size: 14px;
+	}
+	.special {
+		font-size: 10px;
+	}
+	.container8 {
+		padding: 5px;
+	}
+	input, textarea {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.container3, .container4, .container5, .container6, .container7, .container8, .container9, .container10 {
+		padding: 10px;
+	}
+	 
+	h3 {
+		margin-top: 50px;
+	}
+	.image {
+		height: 230px;
+	}
+	.container7 {
+		padding-left: 30px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.icon2 {
+		height: 230px;
+	}
+}
