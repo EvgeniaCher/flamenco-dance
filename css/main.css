@@ -265,15 +265,14 @@ input, textarea {
 
 .adress p {
 	margin: 0px;
-	color: #efefef;
-	margin-top: 10px;
+	color: #A2A2A2;
 	font-size: 12px;
 }
 
 .rights p {
 	margin-top: 40px;
 	text-align: right;
-	color: #d8d8d8;
+	color: #A2A2A2;
 	font-size: 12px;
 }
 
