@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #1F2626;
+	background-color: #efefef;
 	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -121,6 +121,7 @@ li {
 	padding: 60px;
 	padding-bottom: 80px;
 	text-align: center;
+	background-color: #1F2626;
 }
 
 h3  {
